@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+$bg-Clr: #242425;
+$pit-Clr: #c2383d;
+
+
+/* =======================================================
+  dark
+========================================================*/
+.dark .btn-mode {background-image: url("../images/mode_dark.png"); }
+.dark .sticky-top {background-color: #353535; background-image: url("../images/arrow_top_w.png"); }
+
+.dark #container,
+.dark .profile-wrap,
+.dark .info {background-color: $bg-Clr; }
+
+.dark .intro .text .typing-text {color: #ddd; }
+.dark .intro-line path {stroke: #fff; }
+.dark .scroll-text p {color: #eee; }
+.dark .scroll-arrow .line {background-color: #ddd; }
+
+.dark .profilecard-wrap .profilecard {background: linear-gradient(135deg, #2c2c2c, #3a3a3a); }
+.dark .profilecard-wrap .profilecard .name {color: #eee; }
+.dark .profilecard-back ul strong {color: #eee; }
+.dark .profilecard-back ul li p {color: #ddd; }
+.dark .profilecard-wrap .profilecard .birth,
+.dark .profilecard-wrap .profilecard .local {color: #ddd; }
+.dark .profilecard-back ul li .date {color: #999; }
+.dark .profile-click {background-color: rgba(193, 56, 61, 0.3); }
+
+.dark .project-wrap > .title {color: #eee; }
+.dark .project-info strong {color: #eee; }
+.dark .project-text {color: #ddd; }
+.dark .project-infoarea p {color: #888; }
+
+.dark .project-list:not(.main) .project-item {background-color: #353535; }
+
+
