@@ -214,6 +214,7 @@ $pit-Clr: #c2383d;
 .project-item {width: calc(25% - 9px); margin-right: 12px; background-color: #fff; }
 .project-item:nth-child(4n) {margin-right: 0; }
 .project-item a {display: block; width: 100%; height: 100%; }
+.project-item a:hover .project-info strong {color: $pit-Clr; }
 .project-thumb {position: relative; width: 100%; height: 0; padding-top: 56.25%; overflow: hidden; }
 .project-thumb img {position: absolute; top: 50%; left: 50%; width: 100%; transform: translate(-50%, -50%); }
 
@@ -287,6 +288,8 @@ $pit-Clr: #c2383d;
   .project-item {width: 22.75%; border-radius: 16px; margin: 0; background-color: transparent; overflow: hidden; }
   .project-item:nth-child(3n) {margin-right: 0; }
   .project-thumb {padding-top: 100%; border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; }
+  .project-list:not(.main) .project-thumb {background-color: #fff; }
+  .project-list:not(.main) .project-thumb img {height: 70%; }
   .project-thumb img {width: auto; height: 100%; }
   .project-thumb img.pc {display: none; }
   .project-thumb img.mobile {display: block; }

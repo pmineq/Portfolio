@@ -7,7 +7,7 @@ function Info() {
                 <li className="project-item" data-aos="fade-right">
                         <a href="https://shop.hyundai.com/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} alt="현대 Shop"/>
+                                <img src={require("../images/project/hyundai.png").default} alt="현대 Shop"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> 현대 Shop</strong>
@@ -25,7 +25,7 @@ function Info() {
                     <li className="project-item" data-aos="fade-left">
                         <a href="https://kplus.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} alt="YG KPLUS"/>
+                                <img src={require("../images/project/kplus.png").default} alt="YG KPLUS"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> YG KPLUS</strong>
@@ -44,7 +44,7 @@ function Info() {
                     <li className="project-item" data-aos="fade-right">
                         <a href="https://pmineq.github.io/admin/Web/components.html" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} alt="ADMIN 디자인 시스템"/>
+                                <img src={require("../images/project/admin.png").default} alt="ADMIN 디자인 시스템"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> ADMIN 디자인 시스템</strong>
@@ -67,8 +67,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://tn.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="The hada"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="The hada"/>
+                                <img src={require("../images/project/thehada.png").default} className="pc" alt="The hada"/>
+                                <img src={require("../images/project/thehada_m.png").default} className="mobile" alt="The hada"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> The hada</strong>
@@ -82,8 +82,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://togetheron.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="함께ON"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="함께ON"/>
+                                <img src={require("../images/project/withon.png").default} className="pc" alt="함께ON"/>
+                                <img src={require("../images/project/withon_m.png").default} className="mobile" alt="함께ON"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> 함께ON</strong>
@@ -97,8 +97,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://callct.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="직장 내 괴롭힘 상담센터"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="직장 내 괴롭힘 상담센터"/>
+                                <img src={require("../images/project/callct.png").default} className="pc" alt="직장 내 괴롭힘 상담센터"/>
+                                <img src={require("../images/project/callct_m.png").default} className="mobile" alt="직장 내 괴롭힘 상담센터"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> 직장 내 괴롭힘 상담센터</strong>
@@ -112,8 +112,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://lms.kcplaa.or.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="한국공인노무사회 이러닝센터"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="한국공인노무사회 이러닝센터"/>
+                                <img src={require("../images/project/lms.png").default} className="pc" alt="한국공인노무사회 이러닝센터"/>
+                                <img src={require("../images/project/lms_m.png").default} className="mobile" alt="한국공인노무사회 이러닝센터"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style02">적응형</span> 한국공인노무사회 이러닝센터</strong>
@@ -127,8 +127,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://mgon.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="마켓고잉"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="마켓고잉"/>
+                                <img src={require("../images/project/mgon.png").default} className="pc" alt="마켓고잉"/>
+                                <img src={require("../images/project/mgon_m.png").default} className="mobile" alt="마켓고잉"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> 마켓고잉</strong>
@@ -142,8 +142,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://cggc.yahoda.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="CGGC"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="CGGC"/>
+                                <img src={require("../images/project/cggc.png").default} className="pc" alt="CGGC"/>
+                                <img src={require("../images/project/cggc_m.png").default} className="mobile" alt="CGGC"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style02">적응형</span> CGGC</strong>
@@ -157,8 +157,8 @@ function Info() {
                     {/* <li className="project-item">
                         <a href="#" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="Special One Makers"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="Special One Makers"/>
+                                <img src={require("../images/project/default.png").default} className="pc" alt="Special One Makers"/>
+                                <img src={require("../images/project/default_m.png").default} className="mobile" alt="Special One Makers"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style02">적응형</span> Special One Makers</strong>
@@ -172,8 +172,8 @@ function Info() {
                     <li className="project-item">
                         <a href="https://rdebiz.co.kr/rd/index.html" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/default.png").default} className="pc" alt="주식회사 알디 홈페이지"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="주식회사 알디 홈페이지"/>
+                                <img src={require("../images/project/rd.png").default} className="pc" alt="주식회사 알디 홈페이지"/>
+                                <img src={require("../images/project/rd_m.png").default} className="mobile" alt="주식회사 알디 홈페이지"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style01">반응형</span> 주식회사 알디 홈페이지</strong>
@@ -188,7 +188,7 @@ function Info() {
                         <a href="#" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/default.png").default} className="pc" alt="FieldMake"/>
-                                <img src={require("../images/default.png").default} className="mobile" alt="FieldMake"/>
+                                <img src={require("../images/default_m.png").default} className="mobile" alt="FieldMake"/>
                             </div>
                             <div className="project-info">
                                 <strong><span className="tag style02">적응형</span> FieldMake</strong>

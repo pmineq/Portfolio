@@ -7,6 +7,8 @@ $pit-Clr: #c2383d;
 /* =======================================================
   dark
 ========================================================*/
+.dark {cursor: url("../images/cursor_w.svg") 0 0, url("../images/cursor_w.png") 0 0, auto; }
+
 .dark .btn-mode {background-image: url("../images/mode_dark.png"); }
 .dark .sticky-top {background-color: #353535; background-image: url("../images/arrow_top_w.png"); }
 
@@ -19,7 +21,7 @@ $pit-Clr: #c2383d;
 .dark .scroll-text p {color: #eee; }
 .dark .scroll-arrow .line {background-color: #ddd; }
 
-.dark .profilecard-wrap .profilecard {background: linear-gradient(135deg, #2c2c2c, #3a3a3a); }
+.dark .profilecard-wrap .profilecard {background: linear-gradient(135deg, #2c2c2c, #403f3f); }
 .dark .profilecard-wrap .profilecard .name {color: #eee; }
 .dark .profilecard-back ul strong {color: #eee; }
 .dark .profilecard-back ul li p {color: #ddd; }
@@ -33,6 +35,10 @@ $pit-Clr: #c2383d;
 .dark .project-text {color: #ddd; }
 .dark .project-infoarea p {color: #888; }
 
+
 .dark .project-list:not(.main) .project-item {background-color: #353535; }
 
-
+@media (max-width: 580px) {
+  .dark .project-list:not(.main) .project-item {background-color: transparent; }
+  .dark .project-list:not(.main) .project-thumb {background-color: #353535; }
+}
