@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-github-pages/static/css/main.c86102e7.chunk.css",
-    "main.js": "/react-github-pages/static/js/main.be039686.chunk.js",
-    "main.js.map": "/react-github-pages/static/js/main.be039686.chunk.js.map",
-    "runtime-main.js": "/react-github-pages/static/js/runtime-main.0c82916f.js",
-    "runtime-main.js.map": "/react-github-pages/static/js/runtime-main.0c82916f.js.map",
-    "static/js/2.a9d253c3.chunk.js": "/react-github-pages/static/js/2.a9d253c3.chunk.js",
-    "static/js/2.a9d253c3.chunk.js.map": "/react-github-pages/static/js/2.a9d253c3.chunk.js.map",
-    "static/js/3.bbf5c00b.chunk.js": "/react-github-pages/static/js/3.bbf5c00b.chunk.js",
-    "static/js/3.bbf5c00b.chunk.js.map": "/react-github-pages/static/js/3.bbf5c00b.chunk.js.map",
-    "index.html": "/react-github-pages/index.html",
-    "static/css/main.c86102e7.chunk.css.map": "/react-github-pages/static/css/main.c86102e7.chunk.css.map",
-    "static/js/2.a9d253c3.chunk.js.LICENSE.txt": "/react-github-pages/static/js/2.a9d253c3.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/react-github-pages/static/media/scdream9-webfont.fcc588fb.woff",
-    "static/media/layout.scss": "/react-github-pages/static/media/cursor.bf441f82.svg",
-    "static/media/loading.12f3a3fc.svg": "/react-github-pages/static/media/loading.12f3a3fc.svg",
-    "static/media/logo.3b360e2f.svg": "/react-github-pages/static/media/logo.3b360e2f.svg",
-    "static/media/profile_img.fe82972e.png": "/react-github-pages/static/media/profile_img.fe82972e.png",
-    "static/media/profile_line.b7956718.svg": "/react-github-pages/static/media/profile_line.b7956718.svg"
+    "main.css": "/Portfolio/static/css/main.58872ebf.chunk.css",
+    "main.js": "/Portfolio/static/js/main.be039686.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.be039686.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.7d15cc1e.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.7d15cc1e.js.map",
+    "static/js/2.a9d253c3.chunk.js": "/Portfolio/static/js/2.a9d253c3.chunk.js",
+    "static/js/2.a9d253c3.chunk.js.map": "/Portfolio/static/js/2.a9d253c3.chunk.js.map",
+    "static/js/3.bbf5c00b.chunk.js": "/Portfolio/static/js/3.bbf5c00b.chunk.js",
+    "static/js/3.bbf5c00b.chunk.js.map": "/Portfolio/static/js/3.bbf5c00b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.58872ebf.chunk.css.map": "/Portfolio/static/css/main.58872ebf.chunk.css.map",
+    "static/js/2.a9d253c3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a9d253c3.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/Portfolio/static/media/scdream9-webfont.fcc588fb.woff",
+    "static/media/layout.scss": "/Portfolio/static/media/cursor.bf441f82.svg",
+    "static/media/loading.12f3a3fc.svg": "/Portfolio/static/media/loading.12f3a3fc.svg",
+    "static/media/logo.3b360e2f.svg": "/Portfolio/static/media/logo.3b360e2f.svg",
+    "static/media/profile_img.fe82972e.png": "/Portfolio/static/media/profile_img.fe82972e.png",
+    "static/media/profile_line.b7956718.svg": "/Portfolio/static/media/profile_line.b7956718.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c82916f.js",
+    "static/js/runtime-main.7d15cc1e.js",
     "static/js/2.a9d253c3.chunk.js",
-    "static/css/main.c86102e7.chunk.css",
+    "static/css/main.58872ebf.chunk.css",
     "static/js/main.be039686.chunk.js"
   ]
 }
