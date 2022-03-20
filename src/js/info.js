@@ -6,7 +6,7 @@ function Info() {
                 <ul className="project-list main">
 
                 <li className="project-item" data-aos="fade-right">
-                    <a href="javascript:void(0)" rel="noreferrer">
+                    <div className="project-link">
                         <div className="project-thumb">
                             <img src={require("../images/project/portfolio.png").default} alt="Portfolio"/>
                         </div>
@@ -21,11 +21,11 @@ function Info() {
                             project 영역은 메인 프로젝트와 서브 프로젝트들로 나누어 부가설 명을 디테일하게 작성하였고, 서브 프로젝트는 간단하게 나타냈습니다.
                             </p>
                         </div>
-                    </a>
+                    </div>
                 </li>
 
                 <li className="project-item" data-aos="fade-right">
-                        <a href="https://shop.hyundai.com/" target="_blank" rel="noreferrer">
+                        <a href="https://shop.hyundai.com/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/hyundai.png").default} alt="현대 Shop"/>
                             </div>
@@ -43,7 +43,7 @@ function Info() {
                     </li>
 
                     <li className="project-item" data-aos="fade-left">
-                        <a href="https://kplus.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://kplus.platformbuilder.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/kplus.png").default} alt="YG KPLUS"/>
                             </div>
@@ -62,7 +62,7 @@ function Info() {
                     </li>
 
                     <li className="project-item" data-aos="fade-right">
-                        <a href="https://pmineq.github.io/admin/Web/components.html" target="_blank" rel="noreferrer">
+                        <a href="https://pmineq.github.io/admin/Web/components.html" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/admin.png").default} alt="ADMIN 디자인 시스템"/>
                             </div>
@@ -85,7 +85,7 @@ function Info() {
                 <h3 className="title">More Project</h3>
                 <ul className="project-list">
                     <li className="project-item">
-                        <a href="https://tn.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://tn.platformbuilder.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/thehada.png").default} className="pc" alt="theHADA"/>
                                 <img src={require("../images/project/thehada_m.png").default} className="mobile" alt="theHADA"/>
@@ -100,7 +100,7 @@ function Info() {
                     </li>
 
                     <li className="project-item">
-                        <a href="https://togetheron.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://togetheron.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/withon.png").default} className="pc" alt="함께ON"/>
                                 <img src={require("../images/project/withon_m.png").default} className="mobile" alt="함께ON"/>
@@ -115,7 +115,7 @@ function Info() {
                     </li>
 
                     <li className="project-item">
-                        <a href="https://callct.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://callct.platformbuilder.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/callct.png").default} className="pc" alt="직장 내 괴롭힘 상담센터"/>
                                 <img src={require("../images/project/callct_m.png").default} className="mobile" alt="직장 내 괴롭힘 상담센터"/>
@@ -130,7 +130,7 @@ function Info() {
                     </li>
 
                     <li className="project-item">
-                        <a href="https://lms.kcplaa.or.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://lms.kcplaa.or.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/lms.png").default} className="pc" alt="한국공인노무사회 이러닝센터"/>
                                 <img src={require("../images/project/lms_m.png").default} className="mobile" alt="한국공인노무사회 이러닝센터"/>
@@ -145,7 +145,7 @@ function Info() {
                     </li>
 
                     <li className="project-item">
-                        <a href="https://mgon.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://mgon.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/mgon.png").default} className="pc" alt="마켓고잉"/>
                                 <img src={require("../images/project/mgon_m.png").default} className="mobile" alt="마켓고잉"/>
@@ -160,7 +160,7 @@ function Info() {
                     </li>
 
                     <li className="project-item">
-                        <a href="https://cggc.yahoda.co.kr/" target="_blank" rel="noreferrer">
+                        <a href="https://cggc.yahoda.co.kr/" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/cggc.png").default} className="pc" alt="CGGC"/>
                                 <img src={require("../images/project/cggc_m.png").default} className="mobile" alt="CGGC"/>
@@ -190,7 +190,7 @@ function Info() {
                     </li> */}
 
                     <li className="project-item">
-                        <a href="https://rdebiz.co.kr/rd/index.html" target="_blank" rel="noreferrer">
+                        <a href="https://rdebiz.co.kr/rd/index.html" className="project-link" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
                                 <img src={require("../images/project/rd.png").default} className="pc" alt="주식회사 알디 홈페이지"/>
                                 <img src={require("../images/project/rd_m.png").default} className="mobile" alt="주식회사 알디 홈페이지"/>
