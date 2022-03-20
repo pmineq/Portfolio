@@ -14,7 +14,7 @@ $pit-Clr: #c2383d;
 
 /* scroll */
 .scroll-text {display: flex; align-items: center; position: absolute; left: 50%; bottom: 50px; transform: translate(-50%, -50%); }
-.scroll-text p {margin-right: 10px; font-size: 16px; color: #222; }
+.scroll-text p {margin-right: 10px; font-size: 14px; color: #222; }
 .icon-scroll {width: 14px; margin-top: 2px; }
 .icon-scroll .scroll-arrow {-webkit-animation: arrow-wave 1s infinite; -webkit-animation-direction: alternate; animation: arrow-wave 1s infinite; animation-direction: alternate; }
 .icon-scroll .scroll-arrow:nth-child(1) {animation-delay: 0.1s; }
@@ -62,7 +62,7 @@ $pit-Clr: #c2383d;
 	animation: linemove 4s ease-in-out alternate infinite;
 }
 
-.intro .text {position: absolute; top: 50%; left: 5%; margin-top: -48px; transform: translate(0, -50%); text-align: center; z-index: 1; }
+.intro .text {position: absolute; top: 50%; left: 5%; margin-top: -48px; transform: translate(0, -50%); text-align: center; z-index: 1; transition: 0.2s; }
 .intro .text .typing-text {position: relative; font-size: 60px; font-weight: 200; color: #222; letter-spacing: -3px; }
 .intro .text .typing-text em {position: absolute; top: -60px; right: -60px; display: none; font-weight: 200; font-style: normal; }
 .intro .text .typing-text em strong {letter-spacing: -1px; }

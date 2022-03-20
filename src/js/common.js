@@ -108,7 +108,7 @@ window.onload = function(){
 function Header() {
   return (
     <div className="header-inner">
-      <a href="/" className="logo" >
+      <a href="/Portfolio/" className="logo" >
         <img src={logo} alt="logo" />
       </a>
       <button type="button" id="mode_view" className="btn-mode">

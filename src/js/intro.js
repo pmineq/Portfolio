@@ -54,7 +54,7 @@ function Intro() {
             <img src={profile} className="intro-profile" alt="profile"/>
             <ProfileSVG />
             <a href="#info" className="scroll-text">
-                <p>Scroll Down</p>
+                <p>프로젝트 바로보기</p>
                 <div className="icon-scroll">
                     <div className="scroll-arrow"><span className="line"></span><span className="line"></span></div>
                     <div className="scroll-arrow"><span className="line"></span><span className="line"></span></div>
