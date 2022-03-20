@@ -6,8 +6,9 @@ $(document).ready(function(){
     ProfileCard();
 
     $(window).on('resize', function(){
+        var timer = "";
         clearTimeout(timer);
-        var timer = setTimeout(function(){
+        timer = setTimeout(function(){
             ProfileCard();
         }, 3000);
     });
@@ -16,7 +17,7 @@ $(document).ready(function(){
 function ProfileCard(){
     var windowW = $(window).width();
     if (768 > windowW) {
-        $('.profilecard-wrap, .profile-click').on('click', function(){
+        $('.profilecard-wrap, .profile-click').on('touch click', function(){
             if($('.profilecard-front').is(':visible')){
                 $('.profilecard-wrap').addClass('active');
                 $('.profile-click').hide();
@@ -25,7 +26,7 @@ function ProfileCard(){
             }
         })
     } else {
-        $('.profilecard-wrap, .profile-click').off();
+        $('.profilecard-wrap, .profile-click').off('touch click');
         $('.profilecard-wrap').removeClass('active');
     }  
 }
