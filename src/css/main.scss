@@ -168,7 +168,7 @@ $pit-Clr: #c2383d;
 
 .profilecard-back ul + .title {margin-top: 20px; }
 
-.profile-click {display: none; position: absolute; bottom: 30%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(193, 56, 61, 0.1); font-size: 15px; font-weight: 500; color: $pit-Clr; text-align: center; line-height: 80px; transform: translateX(-50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
+.profile-click {display: none; position: absolute; bottom: 30%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(193, 56, 61, 0.3); font-size: 15px; font-weight: 500; color: $pit-Clr; text-align: center; line-height: 80px; transform: translateX(-50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
 
 @keyframes click-wave {
   0% {

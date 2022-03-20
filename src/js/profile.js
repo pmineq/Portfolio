@@ -17,18 +17,19 @@ $(document).ready(function(){
 function ProfileCard(){
     var windowW = $(window).width();
     if (768 > windowW) {
-        $('.profilecard-wrap, .profile-click').on('touch click', function(){
-            if($('.profilecard-front').is(':visible')){
-                $('.profilecard-wrap').addClass('active');
+        $('.profilecard-wrap').on('touch click', function(){
+            if($('.profilecard-wrap').hasClass('active')){
+                $('.profilecard-wrap').removeClass('active');
                 $('.profile-click').hide();
             } else {
-                $('.profilecard-wrap').removeClass('active');
+                $('.profilecard-wrap').addClass('active');
             }
         })
     } else {
         $('.profilecard-wrap, .profile-click').off('touch click');
         $('.profilecard-wrap').removeClass('active');
     }  
+
 }
 
 
