@@ -1,22 +1,31 @@
-import logo from '../images/logo.svg';
+import logo from '../images/logo_company.png';
+import profiledraw from '../images/profile_drawing.png';
 import $ from 'jquery';
 
 $(document).ready(function(){
     ProfileCard();
 
-    $(window).resize(function(){
-        ProfileCard();
-    })
+    $(window).on('resize', function(){
+        clearTimeout(timer);
+        var timer = setTimeout(function(){
+            ProfileCard();
+        }, 3000);
+    });
 });
 
 function ProfileCard(){
     var windowW = $(window).width();
     if (768 > windowW) {
-        $('.profilecard').on('click', function(){
-            $(this).parent().toggleClass('active');
-            $('.profile-click').hide();
+        $('.profilecard-wrap, .profile-click').on('click', function(){
+            if($('.profilecard-front').is(':visible')){
+                $('.profilecard-wrap').addClass('active');
+                $('.profile-click').hide();
+            } else {
+                $('.profilecard-wrap').removeClass('active');
+            }
         })
     } else {
+        $('.profilecard-wrap, .profile-click').off();
         $('.profilecard-wrap').removeClass('active');
     }  
 }
@@ -30,6 +39,7 @@ function Profile() {
                 <p className="profile-click">CLICK</p>
                 <div className="profilecard profilecard-front">
                     <img src={logo} className="logo" alt="logo" />
+                    <img src={profiledraw} className="profile-drawing" alt="프로필 그림" />
                     <div className="info-area">
                         <p className="name">박 민 혜</p>
                         <p className="birth">98.12.01</p>

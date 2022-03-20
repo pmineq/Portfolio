@@ -67,11 +67,11 @@ function Info() {
                     <li className="project-item">
                         <a href="https://tn.platformbuilder.co.kr/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
-                                <img src={require("../images/project/thehada.png").default} className="pc" alt="The hada"/>
-                                <img src={require("../images/project/thehada_m.png").default} className="mobile" alt="The hada"/>
+                                <img src={require("../images/project/thehada.png").default} className="pc" alt="theHADA"/>
+                                <img src={require("../images/project/thehada_m.png").default} className="mobile" alt="theHADA"/>
                             </div>
                             <div className="project-info">
-                                <strong><span className="tag style01">반응형</span> The hada</strong>
+                                <strong><span className="tag style01">반응형</span> theHADA</strong>
                                 <div className="project-infoarea">
                                     <p>퍼블리싱 100%</p>
                                 </div>

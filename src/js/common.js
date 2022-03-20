@@ -111,7 +111,7 @@ function Header() {
       <a href="/" className="logo" >
         <img src={logo} alt="logo" />
       </a>
-      <button type="button" id="mode_view" class="btn-mode">
+      <button type="button" id="mode_view" className="btn-mode">
         <span className="visuallyhidden">모드 전환하기 (Light/Dark)</span>
       </button>
     </div>

@@ -147,14 +147,15 @@ $pit-Clr: #c2383d;
 .profile-area .title {display: block; margin-bottom: 20px; font-size: 24px; font-weight: 700; color: #fff; }
 
 
-.profilecard-wrap .info-area {position: absolute; left: 20px; bottom: 30px; }
+.profilecard-wrap .info-area {position: absolute; left: 50%; bottom: 30px; transform: translateX(-50%); text-align: center; }
+.profilecard-wrap .profilecard .logo {float: none; width: 50px; height: 50px; margin: 0 auto 30px; }
 .profilecard-wrap .profilecard .name {font-size: 34px; font-weight: 700; }
 .profilecard-wrap .profilecard .birth,
 .profilecard-wrap .profilecard .local {font-size: 14px; color: #444; }
 
 .profilecard-wrap .profilecard .email,
 .profilecard-wrap .profilecard .phone {display: block; font-size: 14px; color: $pit-Clr}
-
+.profile-drawing {display: block; width: 150px; margin: 0 auto; transform: translateX(-8px); }
 
 
 .profilecard-back {}
@@ -167,7 +168,7 @@ $pit-Clr: #c2383d;
 
 .profilecard-back ul + .title {margin-top: 20px; }
 
-.profile-click {display: none; position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(193, 56, 61, 0.1); font-size: 15px; font-weight: 500; color: $pit-Clr; text-align: center; line-height: 80px; transform: translate(-50%, -50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
+.profile-click {display: none; position: absolute; bottom: 30%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(193, 56, 61, 0.1); font-size: 15px; font-weight: 500; color: $pit-Clr; text-align: center; line-height: 80px; transform: translateX(-50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
 
 @keyframes click-wave {
   0% {
@@ -188,7 +189,7 @@ $pit-Clr: #c2383d;
   .profilecard-wrap {width: 80%; min-height: 425px; margin: 0 auto; transition: 0.6s; transform-style: preserve-3d; }
   .profilecard-wrap.active {transform: rotateY(180deg); }
   .profilecard-wrap.active .profilecard-back {z-index: 4; }
-  .profilecard-wrap.active .profilecard-front {z-index: -1; opacity: 0; }
+  .profilecard-wrap.active .profilecard-front {display: none; z-index: -1; opacity: 0; }
   .profilecard-wrap .profilecard {position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; min-height: 380px; }
   .profilecard-wrap .profilecard-front {transform: rotateY(0deg) translate(-50%, -50%); z-index: 3; }
   .profilecard-wrap .profilecard-back {transform: rotateY(180deg) translate(50%, -50%); }
@@ -298,6 +299,7 @@ $pit-Clr: #c2383d;
   .project-info strong {display: block; font-size: 11px; font-weight: 400; color: #222; text-align: center; letter-spacing: -0.5px; }
   .project-info .tag,
   .project-infoarea {display: none; }
-
+  
   .project-list.main {margin-bottom: 80px; }
+  .project-list.main .project-infoarea {display: block; }
 }
