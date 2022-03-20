@@ -18,14 +18,17 @@ function ProfileCard(){
     var windowW = $(window).width();
     if (768 >= windowW) {
         $('.profilecard-wrap').on('touch click', function(){
-            if($('.profilecard-wrap').hasClass('active')){
-                $('.profilecard-wrap').removeClass('active');
+            if($(this).hasClass('active')){
+                console.log('active지웟어')
+                $(this).removeClass('active');
                 $('.profile-click').hide();
             } else {
-                $('.profilecard-wrap').addClass('active');
+                console.log('active추가햇어')
+                $(this).addClass('active');
             }
         })
     } else {
+        console.log('나 pc')
         $('.profilecard-wrap, .profile-click').off('touch click');
         $('.profilecard-wrap').removeClass('active');
     }  

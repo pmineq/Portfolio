@@ -4,6 +4,26 @@ function Info() {
             <section className="project-wrap">
                 <h3 className="title">Project</h3>
                 <ul className="project-list main">
+
+                <li className="project-item" data-aos="fade-right">
+                    <a href="javascript:void(0)" rel="noreferrer">
+                        <div className="project-thumb">
+                            <img src={require("../images/project/portfolio.png").default} alt="Portfolio"/>
+                        </div>
+                        <div className="project-info">
+                            <strong><span className="tag style01">반응형</span> Portfolio</strong>
+                            <div className="project-infoarea">
+                                <p>디자인 100% ·퍼블리싱 100%</p>
+                            </div>
+                            <p className="project-text">react.js와 scss를 사용하여 제작되었습니다. 매끄러운 반응형을 목표로 작업하였으며, 최상단의 해/달 아이콘을 클릭하면 다크모드로 전환되는 것이 특징입니다.<br/>
+                            심플하면서 인터랙티브한 요소들을 추가하였습니다.<br/>
+                            profile 영역은 사원증 컨셉으로 작업하였으며, 모바일에서는 클릭 시에 뒷면이 나오는 인터랙션을 추가하여 작업하였습니다.<br/>
+                            project 영역은 메인 프로젝트와 서브 프로젝트들로 나누어 부가설 명을 디테일하게 작성하였고, 서브 프로젝트는 간단하게 나타냈습니다.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
                 <li className="project-item" data-aos="fade-right">
                         <a href="https://shop.hyundai.com/" target="_blank" rel="noreferrer">
                             <div className="project-thumb">
