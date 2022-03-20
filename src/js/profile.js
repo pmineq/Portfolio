@@ -10,13 +10,13 @@ $(document).ready(function(){
         clearTimeout(timer);
         timer = setTimeout(function(){
             ProfileCard();
-        }, 3000);
+        }, 1000);
     });
 });
 
 function ProfileCard(){
     var windowW = $(window).width();
-    if (768 > windowW) {
+    if (768 >= windowW) {
         $('.profilecard-wrap').on('touch click', function(){
             if($('.profilecard-wrap').hasClass('active')){
                 $('.profilecard-wrap').removeClass('active');
