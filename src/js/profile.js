@@ -16,8 +16,8 @@ $(document).ready(function(){
 
 function ProfileCard(){
     var windowW = $(window).width();
-    if (768 <= windowW) {
-        return false;
+    if (768 < windowW) {
+        $('.profilecard, .profile-click').off('touch click');
     } else {
         $('.profilecard, .profile-click').on('touch click', function(){
             $('.profile-click').hide();
