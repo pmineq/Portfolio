@@ -10,24 +10,24 @@ $(document).ready(function(){
         clearTimeout(timer);
         timer = setTimeout(function(){
             ProfileCard();
-        }, 1000);
+        }, 300);
     });
 });
 
 function ProfileCard(){
     var windowW = $(window).width();
-    if (768 >= windowW) {
-        $('.profilecard-wrap').on('touch click', function(){
-            if($(this).hasClass('active')){
-                $(this).removeClass('active');
-                $('.profile-click').hide();
+    if (768 <= windowW) {
+        return false;
+    } else {
+        $('.profilecard, .profile-click').on('touch click', function(){
+            $('.profile-click').hide();
+            
+            if($('.profilecard-wrap').hasClass('active')){
+                $('.profilecard-wrap').removeClass('active');
             } else {
-                $(this).addClass('active');
+                $('.profilecard-wrap').addClass('active');
             }
         })
-    } else {
-        $('.profilecard-wrap, .profile-click').off('touch click');
-        $('.profilecard-wrap').removeClass('active');
     }  
 
 }
