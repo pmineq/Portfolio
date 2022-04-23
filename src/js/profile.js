@@ -1,4 +1,4 @@
-import logo from '../images/logo_company.png';
+import logo from '../images/logo.svg';
 import profiledraw from '../images/profile_drawing.png';
 import $ from 'jquery';
 
