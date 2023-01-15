@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+$bg-Clr: #242425;
+$pit-Clr: #5ab1ae;
+
+
+/* =======================================================
+  dark
+========================================================*/
+.dark {cursor: url("../images/cursor_w.svg") 0 0, url("../images/cursor_w.png") 0 0, auto; }
+
+.dark .logo {background-image: url("../images/logo_w.svg"); }
+
+.dark .btn-mode:after {border-color: #eee; }
+.dark .btn-mode:before {content: "light"; background-color: #eee; color: #222; }
+
+.dark .scroll-text p {color: #eee; }
+.dark .scroll-arrow .line {background-color: #ddd; }
+
+.dark .sticky-top {background-color: #353535; background-image: url("../images/arrow_top_w.png"); }
+
+.dark #container,
+.dark .info {background-color: $bg-Clr; }
+
+.dark .intro {mix-blend-mode: luminosity; }
+
+.dark .intro-text .text-wrap > span {color: #ddd; }
+.dark .intro-text .text-wrap > em {color: #eee; }
+
+.dark .intro-text .colon:after {border-color: #eee transparent transparent transparent; }
+.dark .intro-text .colon:before {border-color: transparent transparent #eee transparent; }
+
+
+.dark .profile-wrap::before {background-color: $bg-Clr; }
+.dark .profilecard-wrap .profilecard {background: linear-gradient(135deg, #2c2c2c, #403f3f); }
+.dark .profilecard-wrap .profilecard .name {color: #eee; }
+.dark .profilecard-back ul strong {color: #eee; }
+.dark .profilecard-back ul li p {color: #ddd; }
+.dark .profilecard-wrap .profilecard .birth,
+.dark .profilecard-wrap .profilecard .local {color: #ddd; }
+.dark .profilecard-back ul li .date {color: #999; }
+
+.dark .project-wrap > .title {color: #eee; }
+.dark .project-info strong {color: #eee; }
+.dark .project-text {color: #ddd; }
+.dark .project-infoarea p {color: #888; }
+
+
+.dark .project-list:not(.main) .project-item {background-color: #353535; }
+
+
+@media (max-width: 768px) {
+  .dark .btn-mode:before {content: ""; }
+}
+
+@media (max-width: 580px) {
+  .dark .project-list:not(.main) .project-item {background-color: transparent; }
+  .dark .project-list:not(.main) .project-thumb {background-color: #353535; }
+}
