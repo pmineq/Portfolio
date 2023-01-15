@@ -118,8 +118,8 @@ $pit-Clr: #5ab1ae;
 * profile
 *
 ================================== */
-.profile-wrap {position: relative; padding: 600px 80px 280px; box-sizing: border-box;  background-color: $pit-Clr; z-index: 3; }
-.profile-wrap::before {content: ""; position: absolute; width: 100%; height: 300px; top: 0; left: 0; border-bottom-left-radius: 100%; border-bottom-right-radius: 100%; background-color: $bg-Clr; }
+.profile-wrap {position: relative; padding: 300px 80px 280px; box-sizing: border-box;  background-color: $pit-Clr; }
+.profile-wrap::before {content: ""; position: absolute; width: 100%; height: 800px; top: -400px; left: 0; border-bottom-left-radius: 100%; border-bottom-right-radius: 100%; background-color: $bg-Clr; }
 
 .profilecard-wrap {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 20px; }
 .profilecard-wrap .profilecard {position: relative; width: 50%; max-width: 320px; padding: 30px 20px 50px; box-sizing: border-box; background: linear-gradient(135deg, #fff, #f2f2f2); box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); }
@@ -149,7 +149,7 @@ $pit-Clr: #5ab1ae;
 
 .profilecard-back ul + .title {margin-top: 20px; }
 
-.profile-click {display: none; position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(13, 122, 198, 0.6); font-size: 15px; font-weight: 500; color: #fff; text-align: center; line-height: 80px; transform: translate(-50%, -50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
+.profile-click {display: none; position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; border-radius: 999px; background-color: rgba(90, 177, 174, 0.6); font-size: 15px; font-weight: 500; color: #fff; text-align: center; line-height: 80px; transform: translate(-50%, -50%); z-index: 4; -webkit-animation: click-wave 1s infinite; -webkit-animation-direction: alternate; animation: click-wave 1s infinite; animation-direction: alternate; }
 
 @keyframes click-wave {
   0% {
@@ -164,6 +164,8 @@ $pit-Clr: #5ab1ae;
 }
 
 @media (max-width: 1080px) {
+  .profile-wrap {padding-top: 400px; }
+  .profile-wrap::before {height: 400px; top: -150px; }
   .profile-area > .title {position: unset; padding-bottom: 40px; writing-mode: unset; text-align: center; }
 }
 
@@ -171,7 +173,7 @@ $pit-Clr: #5ab1ae;
 @media (max-width: 768px) {
   .profile-click {display: block; }
   .profile-wrap {padding: 400px 20px 300px; }
-  .profile-wrap::before {height: 200px; }
+  .profile-wrap::before {top: 0; height: 200px; }
 
   .profilecard-wrap {width: 80%; min-height: 425px; margin: 0 auto; transition: 0.6s; transform-style: preserve-3d; }
   .profilecard-wrap.active {transform: rotateY(180deg); }
@@ -185,7 +187,7 @@ $pit-Clr: #5ab1ae;
 @media (max-width: 500px) {
   .profilecard-wrap {width: 100%; }
   .profile-wrap {padding: 280px 20px 200px; }
-  .profile-wrap::before {height: 150px; }
+  .profile-wrap::before {height: 150px; top: 0; }
   .profilecard-wrap .profilecard {width: 80vw; }
 
   .profile-area > .title {font-size: 48px; }
@@ -199,7 +201,7 @@ $pit-Clr: #5ab1ae;
 *
 ================================== */
 
-.info {position: relative; width: 100%; min-height: 100vh; padding: 100px 80px 160px; box-sizing: border-box; background-color: $bg-Clr; transition: 0.3s; z-index: 3; }
+.info {position: relative; width: 100%; min-height: 100vh; padding: 180px 80px 160px; box-sizing: border-box; background-color: $bg-Clr; transition: 0.3s; z-index: 3; }
 
 .project-wrap {position: relative; max-width: 1200px; margin: 0 auto; padding: 0 100px; box-sizing: border-box; }
 .project-wrap > .title {display: block; margin-bottom: 20px; font-size: 24px; font-weight: 700; color: $pit-Clr; }
@@ -257,7 +259,7 @@ $pit-Clr: #5ab1ae;
 
 @media (max-width: 1080px) {
   .info {padding: 100px 0; }
-  .project-wrap {padding: 0 20px; }
+  .project-wrap {padding: 0 60px; }
   .project-wrap > .title:first-child {position: relative; padding-bottom: 40px; writing-mode: unset; text-align: center; }
 
   .project-list.main .project-item .project-info {padding: 0 0 0 20px; }
@@ -267,6 +269,8 @@ $pit-Clr: #5ab1ae;
 }
 
 @media (max-width: 768px) {
+  .project-wrap {padding: 0 40px; }
+
   .project-item {width: calc(50% - 6px); }
   .project-item:nth-child(3n) {margin-right: 12px; }
   .project-item:nth-child(2n) {margin-right: 0; }
@@ -281,7 +285,7 @@ $pit-Clr: #5ab1ae;
 }
 
 @media (max-width: 580px) {
-
+  .project-wrap {padding: 0 20px; }
   .project-wrap > .title:first-child {font-size: 48px; }
 
   .project-list {gap: 12px 3%; }

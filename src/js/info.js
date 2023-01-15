@@ -43,7 +43,7 @@ function Info() {
 
 
                     <li className="project-item" data-aos="fade-left">
-                        <div className="project-link">
+                        <a href="#" className="project-link">
                             <div className="project-thumb">
                                 <img src={require("../images/project/portfolio.png").default} alt="Portfolio"/>
                             </div>
@@ -58,7 +58,7 @@ function Info() {
                                 project 영역은 메인 프로젝트와 서브 프로젝트들로 나누어 부가설명을 디테일하게 작성하였고, 서브 프로젝트는 간단하게 나타냈습니다.
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     </li>
 
                     <li className="project-item" data-aos="fade-right">
@@ -89,7 +89,7 @@ function Info() {
                                 <div className="project-infoarea">
                                     <p>디자인 100% · 퍼블리싱 100%</p>
                                 </div>
-                                <p className="project-text">오픈 예정인 리뉴얼된 KPLUS 홈페이지 입니다.<br/>
+                                <p className="project-text">리뉴얼된 KPLUS 홈페이지 입니다.<br/>
                                 디자인 100%로 본사에 컨펌받아 진행하였으며, 메인화면은 fullpage 플러그인을 사용하였습니다. 모바일 화면과 가로모드로 전환될 것까지 고려하여 신경 써서 작업하였습니다.<br/>
                                 production의 아코디언 레이아웃은 플러그인을 사용하지 않고 jquery로 작성하였습니다.<br/>
                                 이외 모든 페이지 디자인 + 퍼블리싱 100% 혼자 작업하였습니다.
