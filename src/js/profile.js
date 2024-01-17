@@ -16,9 +16,9 @@ $(document).ready(function(){
 function ProfileCard(){
     var windowW = $(window).width();
     if (windowW > 768) {
-        $('.profilecard, .profile-click').off('touch click');
+        $('.profilecard, .profile-click').off('click');
     } else {
-        $('.profilecard, .profile-click').on('touch click', function(){
+        $('.profilecard, .profile-click').on('click', function(){
             $('.profile-click').hide();
             
             if($('.profilecard-wrap').hasClass('active')){
@@ -50,8 +50,13 @@ function Profile() {
                     </div>
                 </div>
                 <div className="profilecard profilecard-back">
-                    <p className="title">경력사항 · 총 3년 7개월</p>
+                    <p className="title">경력사항 · 총 4년 7개월</p>
                     <ul className="career">
+                        <li>
+                            <strong>한국평가데이터</strong>
+                            <p>기획 및 퍼블리셔 · 전문연구원</p>
+                            <span className="date">2023.02.08 ~ 현재</span>
+                        </li>
                         <li>
                             <strong>LS그룹 외주</strong>
                             <p>프리랜서</p>
@@ -68,7 +73,7 @@ function Profile() {
                         <li>
                             <strong>한국방송통신대학교</strong>
                             <p>컴퓨터과학과</p>
-                            <span className="date">2021.03 ~ 2023.08 (졸업예정)</span>
+                            <span className="date">2021.03 ~ 2023.08</span>
                         </li>
                         <li>
                             <strong>한양여자대학교</strong>
