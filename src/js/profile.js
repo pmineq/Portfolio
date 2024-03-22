@@ -16,9 +16,9 @@ $(document).ready(function(){
 function ProfileCard(){
     var windowW = $(window).width();
     if (windowW > 768) {
-        $('.profilecard, .profile-click').off('touch click');
+        $('.profilecard, .profile-click').off('click');
     } else {
-        $('.profilecard, .profile-click').on('touch click', function(){
+        $('.profilecard, .profile-click').on('click', function(){
             $('.profile-click').hide();
             
             if($('.profilecard-wrap').hasClass('active')){
